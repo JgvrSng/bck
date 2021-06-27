@@ -16,7 +16,21 @@ const signUpTemplate = new mongoose.Schema({
         type : String,
         required : true,
     },
+
+    score : {
+        type : Number,
+        required : true,
+    },
+
+    like : {
+        type : String,
+        required : true,
+    },
  
+    stage : {
+        type : Number,
+        required : true,
+    },
     date : {
         type : Date,
         default : Date.now
@@ -26,6 +40,6 @@ const signUpTemplate = new mongoose.Schema({
 
 
 
-const signUpUser  = mongoose.model('SignUpBackend', signUpTemplate)
+const signUpUser  = mongoose.model('UserDataBackend', signUpTemplate)
 
 module.exports = signUpUser

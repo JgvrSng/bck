@@ -11,6 +11,8 @@ router.post('/signup',controller.signup)
 router.post('/update',controller.update)
 router.post('/delete',controller.destroy)
 router.post('/login',controller.login)
+router.post('/score',controller.score)
+router.get('/topscore',controller.topscore)
 
 
 

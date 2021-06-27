@@ -1,5 +1,3 @@
-GET  http://localhost:3000/app
+GET  https://scramblee.herokuapp.com/app/topscore
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGkiLCJpYXQiOjE2MjI4MzYzNDMsImV4cCI6MTYyMjgzOTk0M30.15cfqe14-Nvi9skWdWYsOASL_S4IsN5jb-3o2q7_7Vw
-
 
